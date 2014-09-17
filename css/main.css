@@ -59,7 +59,7 @@ ol, ul {
 
 .page {
 	display: block;
-	width: 80%;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	/*background-color: #fff;*/
@@ -78,7 +78,7 @@ ol, ul {
 
 .sidebar {
 	display: block;
-	width: 350PX;
+	width: 350px;
 	float: left;
 	border: 1px solid #e6e6e6;
 	box-shadow: 2px 2px 0 #e6e6e6;
