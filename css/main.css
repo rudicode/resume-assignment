@@ -16,6 +16,7 @@ time, mark, audio, video {
 	/* for debuging */
 	/*border: 1px solid #00ff00;*/
 	margin: 10px;
+	font-size: 1.0em;
 }
 
 body {
@@ -39,10 +40,13 @@ h1 {
 
 h2 {
 	/*box-shadow: 3px 3px 0 #d0d0d0;*/
+	font-size: 1.5em;
 }
 
 h3 {
 	font-size: 1.2em;
+	/*font-weight: bold;*/
+	font-style: italic;
 	width: 500px;
 	padding-top: 20px;
 }
