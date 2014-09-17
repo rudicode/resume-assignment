@@ -14,12 +14,26 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	/* for debuging */
-	border: 1px solid #00ff00;
+	/*border: 1px solid #00ff00;*/
+	margin: 10px;
+}
+
+body {
+    background: none repeat scroll 0 0 #f3f3f3;
+    /*color: #777;*/
 }
 
 h1, h2, h3 {
 	font-family: verdana;
 	font-size: 2.0em;
+}
+
+h1 {
+	padding: 6px;
+	margin-bottom: 0;
+	background-color: #e8e8e8;
+	border-bottom: 1px solid #d0d0d0;
+	border-bottom: 1px solid #d0d0d0;
 }
 
 h3 {
@@ -37,12 +51,13 @@ ol, ul {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: #fff;
 }
 
 .sidebar_image {
 	width: 300px;
-	/*margin-left: 25px;*/
-	text-align: center;
+	margin-left: 25px;
+	/*text-align: center;*/
 }
 
 .sidebar {
@@ -51,10 +66,25 @@ ol, ul {
 	float: left;
 }
 
+.sidebar p.centered {
+	text-align: center;
+}
+
 .main {
 	display: inline-block;
 	/*width: 500px;*/
 	float: left;
+}
+
+.main-content {
+
+	border: 1px solid #e6e6e6;
+	margin-left: 10px;
+	margin-top: 0;
+	margin-bottom: 30px;
+	padding-left: 30px;
+  padding-top: 20px;
+  box-shadow: 2px 2px 0 #e6e6e6;
 }
 
 .footer {
