@@ -56,13 +56,11 @@ ol, ul {
 }
 
 ul {
-	/*width: 450px;*/
 	font-family: 'Allerta','Trebuchet MS',sans-serif;
 }
 
 .page {
 	display: block;
-	/*width: 90%;*/
 	min-width: 400px;
 	max-width: 850px;
 	margin-left: auto;
@@ -108,14 +106,10 @@ ul {
   box-shadow: 2px 2px 0 #e6e6e6;
 }
 
-.footer {
+.footer { 
 	clear: both;
 	min-width: 400px;
 	max-width: 815px;
-}
-
-
-.footer { 
   background: none repeat scroll 0 0 #444;
   padding: 5px;
   color: #ddd;
@@ -136,4 +130,3 @@ ul {
 .menu p {
   display: inline;
 }
-
