@@ -21,7 +21,6 @@ time, mark, audio, video {
 
 body {
     background: none repeat scroll 0 0 #f3f3f3;
-    /*color: #777;*/
 }
 
 h1, h2, h3 {
@@ -35,21 +34,20 @@ h1 {
 	margin: 0;
 	box-shadow: 3px 3px 0 #e6e6e6;
 	background-color: #d0d0d0;
-	/*border-bottom: 1px solid #d0d0d0;*/
-	/*border-bottom: 1px solid #d0d0d0;*/
 }
 
 h2 {
-	/*box-shadow: 3px 3px 0 #d0d0d0;*/
 	font-size: 1.5em;
 }
 
 h3 {
 	font-size: 1.2em;
-	/*font-weight: bold;*/
 	font-style: italic;
-	width: 500px;
 	padding-top: 20px;
+}
+
+h5 {
+	font-family: "Lucida Console", Monaco, monospace;
 }
 
 ol, ul {
@@ -57,12 +55,18 @@ ol, ul {
 	margin-left: 30px;
 }
 
+ul {
+	/*width: 450px;*/
+	font-family: Trebuchet MS,sans-serif;
+}
+
 .page {
 	display: block;
-	width: 90%;
+	/*width: 90%;*/
+	min-width: 400px;
+	max-width: 850px;
 	margin-left: auto;
 	margin-right: auto;
-	/*background-color: #fff;*/
 }
 
 
@@ -73,12 +77,11 @@ ol, ul {
 .sidebar_image {
 	width: 300px;
 	margin-left: 25px;
-	/*text-align: center;*/
 }
 
 .sidebar {
 	display: block;
-	width: 350px;
+	width: 400px;
 	float: left;
 	border: 1px solid #e6e6e6;
 	box-shadow: 2px 2px 0 #e6e6e6;
@@ -86,32 +89,31 @@ ol, ul {
 
 .sidebar p.centered {
 	text-align: center;
+	font-family: Trebuchet MS,sans-serif;
 }
 
 .main {
 	display: inline-block;
-	/*width: 500px;*/
+	width: 400px;
 	float: left;
 }
 
 .main-content {
 
 	border: 1px solid #e6e6e6;
-	margin-left: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
 	margin-top: 0;
 	margin-bottom: 30px	;
-	/*padding-left: 30px;*/
-  /*padding-top: 20px;*/
   box-shadow: 2px 2px 0 #e6e6e6;
 }
 
 .footer {
 	clear: both;
+	min-width: 400px;
+	max-width: 815px;
 }
 
-ul {
-	width: 400px;
-}
 
 .footer { 
   background: none repeat scroll 0 0 #444;
@@ -127,6 +129,8 @@ ul {
   color: #ddd;
   text-shadow: 1px 1px 1px #222;
   box-shadow: 2px 2px 0 #e6e6e6;
+  min-width: 400px;
+	max-width: 815px;
  }
 
 .menu p {
