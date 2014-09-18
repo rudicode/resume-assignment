@@ -24,7 +24,7 @@ body {
 }
 
 h1, h2, h3 {
-	font-family: verdana;
+	font-family: 'Marvel', verdana;
 	font-size: 2.0em;
 	color: #070;
 }
@@ -47,7 +47,7 @@ h3 {
 }
 
 h5 {
-	font-family: "Lucida Console", Monaco, monospace;
+	font-family: 'Inconsolata', "Lucida Console", Monaco, monospace;
 }
 
 ol, ul {
@@ -57,7 +57,7 @@ ol, ul {
 
 ul {
 	/*width: 450px;*/
-	font-family: Trebuchet MS,sans-serif;
+	font-family: 'Allerta','Trebuchet MS',sans-serif;
 }
 
 .page {
@@ -89,7 +89,7 @@ ul {
 
 .sidebar p.centered {
 	text-align: center;
-	font-family: Trebuchet MS,sans-serif;
+	font-family: 'Allerta','Trebuchet MS',sans-serif;
 }
 
 .main {
